@@ -1,0 +1,6 @@
+venv/
+session/
+*~
+*.*~
+*.pyc
+*.sqlite3

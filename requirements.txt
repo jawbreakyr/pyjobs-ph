@@ -1,0 +1,6 @@
+Beaker==1.6.4
+argparse==1.2.1
+bottle==0.12.4
+rauth==0.6.2
+requests==1.2.3
+wsgiref==0.1.2
