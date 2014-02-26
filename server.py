@@ -25,10 +25,7 @@ facebook = oauth2(
     access_token_url='https://graph.facebook.com/oauth/access_token',
     base_url='https://graph.facebook.com/'
 )
-redirect_uri = '{uri}:{port}/success'.format(
-    uri=config.BASE_URI,
-    port=config.PORT
-)
+redirect_uri = '{uri}/success'.format(uri=config.BASE_URI)
 
 def authenticate(func):
     def logged_in(*args, **kwargs):

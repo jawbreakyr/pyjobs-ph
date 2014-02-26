@@ -7,6 +7,7 @@
         <title>Python Job Openings In The Philippines - Python PH</title>
     </head>
     <body>
+        <a href="/add">Add Company &raquo;</a>
         <table summary="List of available Python companies that have job openings in the Philippines."
                border="1">
             <caption>Python Job Openings In The Philippines</caption>
@@ -36,6 +37,5 @@
                 % end
             </tbody>
         </table>
-        <a href="/add">Add Company &raquo;</a>
     </body>
 </html>
